@@ -1,0 +1,62 @@
+Contents:
+What is HTML & Why use it?
+Basic Tags
+HTML vs HTML5
+div vs section vs article
+div vs span
+inline vs block elements
+HTML Forms
+Input elements and attributes
+Form submit
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rupan" />
+    <meta
+      name="description"
+      content="This is sample website for html day 1 session"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Day 1</title>
+  </head>
+
+  <body>
+    <h1>HTML: HyperText Markup Language</h1>
+    <hr />
+    <p>
+      HTML (HyperText Markup Language) is the most basic building block of the
+      Web.
+      <br />It defines the meaning and structure of web content
+    </p>
+    <hr />
+  </body>
+</html>
+
+
+practise task
+1.
+ <html lang="en"> 
+  <head>
+    <title>Document guvi</title>
+  </head>
+  <body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div>Guvi Geek Network</div>
+  </body>
+</html>
+
+2.
+<html lang="en">
+  <head>
+    <title>Document guvi</title>
+  </head>
+  <body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div>Guvi Geek Network</div>
+  </body>
+</html>
+
+3.

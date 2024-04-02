@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    color:brown;
+}
+a:hover , a:active{
+    color: aqua;
+}
+img{
+    height: 200px;
+    width:200px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
