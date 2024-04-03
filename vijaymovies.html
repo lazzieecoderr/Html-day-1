@@ -1,19 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vijay Movies</title>
-</head>
-<body>
-    <h1>List of vijay movies</h1>
-     <dl>
-        <dt>Leo</dt>
-        <dd>Leo is suspense and action movie</dd>
-        <dt>Sarkar</dt>
-        <dd>It is a political movie</dd>
-        <dt>Beast</dt>
-        <dd>It is a action cum comedy movie</dd>
-     </dl>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijay</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vijay (actor)</h1>
+    </header>
+    <main>
+      <article>
+        <section>
+          Joseph Vijay Chandrasekhar (born 22 June 1974), known professionally
+          as Vijay, is an Indian actor and playback singer who works in Tamil
+          cinema. In a career spanning in just over 3 decades, <br />Vijay has
+          acted in over 65 films and is one of the most commercially successful
+          actors in Tamil cinema with multiple films amongst the
+          highest-grossing Tamil films of all time and is amongst the highest
+          paid actors in India.
+        </section>
+        <br />
+        <section>
+          Born in Madras to director S. A. Chandrasekhar, Vijay made his debut
+          as a child actor in the Tamil film Vetri (1984). After a view roles as
+          a child actor in his father’s films, he played his first lead role in
+          the film Naalaiya Theerpu (1992) at the age of 18. Vijay continued
+          doing lead roles for the next few years with mixed results, notable
+          films amongst them included Poove Unakkaga, Love Today, Kadhalukku
+          Mariyadhai, Thulladha Manamum Thullum and Kushi. In 1998, he was
+          awarded Kalaimaamani by the Government of Tamil Nadu.
+        </section>
+        <br />
+        <section>
+          In 2003, he starred in Ghilli, which became the first Tamil film to
+          gross over ₹500 million and with subsequent success of Thirupaachi and
+          Pokkiri later, he established himself as one of the leading and
+          commercially successful actors in Tamil cinema. Following a period of
+          moderate success, Vijay acted in various critically and commercially
+          successful films starting in the late 2010s including Thuppakki,
+          Kaththi and Sarkar. He has won several awards as an actor.
+        </section>
+      </article>
+      <br />
+      <table border="3">
+        <caption>
+          <strong>List of Vijay Movies</strong>
+        </caption>
+        <thead>
+          <tr>
+            <th>Movie Name</th>
+            <th>Director</th>
+            <th>Music Director</th>
+            <th>Release Year</th>
+            <th>Cast</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>LEO</td>
+            <td rowspan="2">Lokesh Kanagaraj</td>
+            <td rowspan="3">Anirudh Ravichandran</td>
+            <td>2024</td>
+            <td>Sanjay Dutt,Arjun,Trisha,Mansoor Ali Khan</td>
+          </tr>
+          <tr>
+            <td>Master</td>
+            <td>2021</td>
+            <td>Santhanu,Andrea,Vijay Sethupathi</td>
+          </tr>
+          <tr>
+            <td>Beast</td>
+            <td>Nelson Dilipkumar</td>
+            <td>2022</td>
+            <td>Pooja Hedge,Yogi Babu,Selvaragavan,Reddin Kingsley</td>
+          </tr>
+          <tr>
+            <td>Varisu</td>
+            <td>Vamsi</td>
+            <td>Thamman</td>
+            <td>2023</td>
+            <td>Sarathkumar,PrakashRaj,Sham,Rashmika</td>
+          </tr>
+          <tr>
+            <td>Sarkar</td>
+            <td>A.R.Murgadoss</td>
+            <td>A.R.Rahman</td>
+            <td>2019</td>
+            <td>Keerthy suresh,Yogibabu,Radha Ravi</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5">
+              These are some of the movies acted by Actor Vijay with the details
+              listed above.Tap to &nbsp;<a
+                href="https://www.imdb.com/list/ls500257853/"
+                target="_blank"
+                >See More</a
+              >
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+      <br> 
+      <h2>Form</h2>
+      <form >
+        <fieldset>
+        <legend><strong>Personal Info</strong></legend>
+        <p>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name" required>
+        </p>
+        <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Mail Id" required>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+        </p>
+        <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter Your Number " required>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Interests</strong></legend>
+        <p>
+            <label for="Food">Favorite Foods:</label>
+            <select name="food" id="Food">
+                <optgroup label="Tiffin">
+                <option value="Idly">Idly</option>
+                <option value="Dosai">Dosai</option>
+            </optgroup>
+            <optgroup label="Lunch">
+                <option value="Briyani">Briyani</option>
+                <option value="Meals">Meals</option>
+            </optgroup>
+            <optgroup label="Dinner">
+                <option value="Chappathi">Chappathi</option>
+                <option value="Parotta">Parotta</option>
+                <option value="Naan">Naan</option>
+                <option value="Roti">Roti</option>
+            </optgroup>
+            <option value="other">Other</option>
+            </select>
+        </p>
+    </fieldset>
+   <!-- <p>
+    <label for="Food">Favorite Foods:</label>
+    <input type="text" name="food" id="Food" placeholder="Enter Your Favorite Food" list="food-list">
+    <datalist id="food-list">
+                <option value="Chappathi">
+                <option value="Parotta">
+                <option value="Naan">
+                <option value="Roti">
+    </datalist>
+</p> -->
+<fieldset>
+    <legend><strong>Education</strong></legend>
+    <p>
+        <label for="12th">12th</label>
+        <input type="radio" name="education" id="12th" value="12th">
+    </p>
+    <p>
+        <label for="10th">10th</label>
+        <input type="radio" name="education" id="10th" value="10th">
+    </p>
+    <p>
+        <label for="degree">Degree</label>
+        <input type="radio" name="education" id="degree" value="degree">
+    </p>
+</fieldset>
+<fieldset>
+    <legend><strong>Skills</strong></legend>
+    <p>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="Skills" id="html" value="html">
+    </p>
+    <p>
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skills" id="css" value="css">
+    </p>
+    <p>
+        <label for="js">Javascript</label>
+        <input type="checkbox" name="skills" id="js" value="js">
+    </p>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+      </form>
+      <br>
+      <br>
+      <a href="" target="_top">Back To Top</a>
+    </main>
+  </body>
 </html>
